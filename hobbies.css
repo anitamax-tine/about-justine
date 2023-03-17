@@ -9,7 +9,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(/image/bgback.gif) no-repeat;
+    background: url(image/bgback.gif) no-repeat;
     background-size: cover;
     display: grid;
     grid-template-columns: repeat(auto-fit, minimax(200px, lfr));
