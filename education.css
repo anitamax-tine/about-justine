@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/image/bgback.gif) no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minimax(200px, lfr));
+    gap: 20px;
+}
+
+.box{
+    border-radius: 5%;
+    width: 1000px;
+    height: 150px;
+    background: #211B50;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: #FAB216;
+}
+
+.box-img{
+    margin-left: -600px;
+    margin-top: -1.5%;
+    width: 350px;
+    height: 350px;
+
+}
+.box h1{
+    text-align: center;
+    color: #FAB216;
+    margin-top: -2%;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-family: 'VT323';
+}
+
+.box h2{
+    text-align: center; 
+    margin-left: 0px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-family: 'VT323';
+}
+
+.boxtwo{
+    width: 1000px;
+    height: 150px;
+    background: #015321;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: -2%;
+    color: #CABA1A;
+}
+
+.box-imgtwo{
+    margin-left: 600px;
+    margin-top: -1.5%;
+    width: 350px;
+    height: 350px;
+
+}
+.boxtwo h1{
+    text-align: center;
+    color: #CABA1A;
+    margin-top: 0%;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-family: 'VT323';
+}
+
+.boxtwo h2{
+    text-align: center; 
+    margin-left: 0px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-family: 'VT323';
+}
+
+.boxthree{
+    width: 1000px;
+    height: 150px;
+    background: black;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: -2%;
+    color: white;
+}
+
+.boxthree h1{
+    text-align: center;
+    color: white;
+    margin-top: 0%;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-family: 'VT323';
+}
+
+.boxthree h2{
+    text-align: center; 
+    margin-left: 0px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-family: 'VT323';
+}
+
+.boxfour{   
+    width: 1000px;
+    height: 150px;
+    background: white;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: -2%;
+    color: black;
+}
+
+.boxfour h1{
+    text-align: center;
+    color: black;
+    margin-top: 0%;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-family: 'VT323';
+}
+
+.boxfour h2{
+    text-align: center; 
+    margin-left: 0px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-family: 'VT323';
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* for the navigation bar */
+
+.wrapper{
+    width: 1140px;
+    margin: auto;
+}
+
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+header{
+    height: 125%;
+    background: black;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* navigation container */
+.nav-area{
+    font-family: 'VT323';
+    float: center;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 100px;
+
+}
+
+/* to make the nav bar horizontal */
+.nav-area li {
+    display: inline-block;
+}
+
+/* designing navbar text */
+.nav-area li a 
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin-left: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    font-weight: 900;
+}
+.nav-area li a:hover
+{
+    background: #FF5F1F;
+    color: white;
+}
+
+/* responsive css start */
+@media only screen and (max-width:900px)
+{
+    .wrapper{
+        width: 100%;
+    }
+  
+}
+
